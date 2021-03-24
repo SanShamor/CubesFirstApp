@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstRedView: UIView!
+    @IBOutlet weak var secondBlueView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        firstRedView.backgroundColor = .red
+        secondBlueView.backgroundColor = .blue
     }
 
 
